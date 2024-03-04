@@ -299,6 +299,7 @@ write.csv(output_monthly, file.path(user_wd, "results", "output_monthly.csv"), r
 ```{r}
 nc_files <- list.files(user_wd, pattern = ".nc", full.names = TRUE)
 colnames(coord_df) <- c("lat", "long")
+variable <- "precipitation"
 
 point_output_daily <- data.frame()
 

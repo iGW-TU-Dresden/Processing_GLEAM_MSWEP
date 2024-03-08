@@ -111,7 +111,7 @@ if (tolower(user_choice) == "a") {
 
 ## 3. Download the dataset of interest
 
-**Connect to the SFTP Server where the GLEAM dataset is located**
+**Connect to the SFTP Server where the MSWEP dataset is located**
 
 The dataset will be downloaded for the assigned variable and years and stored in the pre-determined directory on your local computer.
 
